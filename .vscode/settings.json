@@ -1,0 +1,7 @@
+{
+  "typescript.suggest.autoImports": true,
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "editor.hover.enabled": true,
+  "editor.hover.delay": 2000,
+  "editor.quickSuggestionsDelay": 1000
+}
