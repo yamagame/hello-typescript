@@ -2,7 +2,7 @@ const path = require("path");
 const nodeExternals = require("webpack-node-externals");
 
 module.exports = {
-  entry: "src/index.ts",
+  entry: "./index.ts",
   module: {
     rules: [
       {
@@ -13,6 +13,7 @@ module.exports = {
   target: "node",
   resolve: {
     extensions: [".ts", ".js"],
+    modules: [path.resolve(__dirname, "./")],
   },
   output: {
     filename: "index.js",
